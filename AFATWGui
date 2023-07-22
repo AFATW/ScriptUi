@@ -1,0 +1,263 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local ExploitGui = Instance.new("ScreenGui")
+local Frame = Instance.new("Frame")
+local Utilities = Instance.new("TextButton")
+local GuiLabel = Instance.new("TextLabel")
+local Player = Instance.new("TextButton")
+local Credits = Instance.new("TextButton")
+local PlayerUi = Instance.new("Frame")
+local Reset1 = Instance.new("TextButton")
+local reset2 = Instance.new("TextButton")
+local close = Instance.new("TextButton")
+local Speed = Instance.new("TextBox")
+local Jump = Instance.new("TextBox")
+local TextButton = Instance.new("TextButton")
+local Texters = Instance.new("TextButton")
+
+--Properties:
+
+ExploitGui.Name = "ExploitGui"
+ExploitGui.Parent = game.CoreGui
+ExploitGui.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Frame.Parent = ExploitGui
+Frame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Frame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Frame.BorderSizePixel = 25
+Frame.Position = UDim2.new(0.2522071, 0, 0.25860092, 0)
+Frame.Size = UDim2.new(0, 343, 0, 415)
+
+Utilities.Name = "Utilities"
+Utilities.Parent = Frame
+Utilities.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Utilities.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Utilities.BorderSizePixel = 15
+Utilities.Position = UDim2.new(0.106559642, 0, 0.320822895, 0)
+Utilities.Size = UDim2.new(0, 268, 0, 62)
+Utilities.Font = Enum.Font.Bangers
+Utilities.Text = "Utilities"
+Utilities.TextColor3 = Color3.fromRGB(0, 0, 0)
+Utilities.TextScaled = true
+Utilities.TextSize = 14.000
+Utilities.TextWrapped = true
+
+GuiLabel.Name = "GuiLabel"
+GuiLabel.Parent = Frame
+GuiLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+GuiLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GuiLabel.BorderSizePixel = 0
+GuiLabel.Position = UDim2.new(0.135713711, 0, 0.0283019282, 0)
+GuiLabel.Size = UDim2.new(0, 257, 0, 98)
+GuiLabel.Font = Enum.Font.Bangers
+GuiLabel.Text = "AFATW's Script UI"
+GuiLabel.TextColor3 = Color3.fromRGB(0, 0, 0)
+GuiLabel.TextScaled = true
+GuiLabel.TextSize = 14.000
+GuiLabel.TextWrapped = true
+
+Player.Name = "Player"
+Player.Parent = Frame
+Player.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Player.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Player.BorderSizePixel = 15
+Player.Position = UDim2.new(0.103644371, 0, 0.565992236, 0)
+Player.Size = UDim2.new(0, 268, 0, 62)
+Player.Font = Enum.Font.Bangers
+Player.Text = "Player"
+Player.TextColor3 = Color3.fromRGB(0, 0, 0)
+Player.TextScaled = true
+Player.TextSize = 14.000
+Player.TextWrapped = true
+
+Credits.Name = "Credits"
+Credits.Parent = Frame
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BorderSizePixel = 15
+Credits.Position = UDim2.new(0.100728825, 0, 0.81168443, 0)
+Credits.Size = UDim2.new(0, 269, 0, 60)
+Credits.Font = Enum.Font.Bangers
+Credits.Text = "Utilities"
+Credits.TextColor3 = Color3.fromRGB(0, 0, 0)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+PlayerUi.Name = "PlayerUi"
+PlayerUi.Parent = Frame
+PlayerUi.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+PlayerUi.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerUi.BorderSizePixel = 20
+PlayerUi.Position = UDim2.new(0.317492723, 300, 0, 0)
+PlayerUi.Size = UDim2.new(0.100000001, 320, 0, 415)
+PlayerUi.Visible = false
+
+Reset1.Name = "Reset1"
+Reset1.Parent = PlayerUi
+Reset1.BackgroundColor3 = Color3.fromRGB(255, 29, 0)
+Reset1.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Reset1.BorderSizePixel = 0
+Reset1.Position = UDim2.new(0.10204082, 0, 0.612048149, 0)
+Reset1.Size = UDim2.new(0, 272, 0, 43)
+Reset1.Font = Enum.Font.DenkOne
+Reset1.Text = "Reset Speed"
+Reset1.TextColor3 = Color3.fromRGB(255, 255, 255)
+Reset1.TextScaled = true
+Reset1.TextSize = 14.000
+Reset1.TextWrapped = true
+
+reset2.Name = "reset2"
+reset2.Parent = PlayerUi
+reset2.BackgroundColor3 = Color3.fromRGB(255, 29, 0)
+reset2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+reset2.BorderSizePixel = 0
+reset2.Position = UDim2.new(0.10204082, 0, 0.737349391, 0)
+reset2.Size = UDim2.new(0, 272, 0, 43)
+reset2.Font = Enum.Font.DenkOne
+reset2.Text = "Reset Jump Power"
+reset2.TextColor3 = Color3.fromRGB(255, 255, 255)
+reset2.TextScaled = true
+reset2.TextSize = 14.000
+reset2.TextWrapped = true
+
+close.Name = "close"
+close.Parent = PlayerUi
+close.BackgroundColor3 = Color3.fromRGB(255, 29, 0)
+close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+close.BorderSizePixel = 5
+close.Position = UDim2.new(0.349854261, 0, 0.901204824, 0)
+close.Size = UDim2.new(0, 101, 0, 30)
+close.Font = Enum.Font.DenkOne
+close.Text = "Close"
+close.TextColor3 = Color3.fromRGB(255, 255, 255)
+close.TextScaled = true
+close.TextSize = 14.000
+close.TextWrapped = true
+
+Speed.Name = "Speed"
+Speed.Parent = PlayerUi
+Speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Speed.BorderSizePixel = 0
+Speed.Position = UDim2.new(0.0846740082, 0, 0.0283019282, 0)
+Speed.Size = UDim2.new(0, 277, 0, 89)
+Speed.Font = Enum.Font.SourceSans
+Speed.PlaceholderText = "Enter Speed Number Here"
+Speed.Text = ""
+Speed.TextColor3 = Color3.fromRGB(0, 0, 0)
+Speed.TextScaled = true
+Speed.TextSize = 14.000
+Speed.TextWrapped = true
+
+Jump.Name = "Jump"
+Jump.Parent = PlayerUi
+Jump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Jump.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Jump.BorderSizePixel = 0
+Jump.Position = UDim2.new(0.0677392036, 0, 0.262650609, 0)
+Jump.Size = UDim2.new(0, 296, 0, 97)
+Jump.Font = Enum.Font.SourceSans
+Jump.PlaceholderText = "Enter Jump Power Nmber Here"
+Jump.Text = ""
+Jump.TextColor3 = Color3.fromRGB(0, 0, 0)
+Jump.TextScaled = true
+Jump.TextSize = 14.000
+Jump.TextWrapped = true
+
+TextButton.Parent = Frame
+TextButton.BackgroundColor3 = Color3.fromRGB(255, 17, 0)
+TextButton.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.BorderSizePixel = 10
+TextButton.Position = UDim2.new(0.344023228, 0, 1.11807227, 0)
+TextButton.Size = UDim2.new(0, 113, 0, 30)
+TextButton.Font = Enum.Font.Bangers
+TextButton.Text = "Close"
+TextButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextButton.TextScaled = true
+TextButton.TextSize = 14.000
+TextButton.TextWrapped = true
+
+Texters.Name = "Texters"
+Texters.Parent = ExploitGui
+Texters.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Texters.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Texters.BorderSizePixel = 13
+Texters.Position = UDim2.new(0.0444444492, 0, 0.511600912, 0)
+Texters.Size = UDim2.new(0, 208, 0, 105)
+Texters.Font = Enum.Font.Creepster
+Texters.Text = "Gui"
+Texters.TextColor3 = Color3.fromRGB(0, 0, 0)
+Texters.TextScaled = true
+Texters.TextSize = 14.000
+Texters.TextWrapped = true
+
+-- Scripts:
+
+local function EIVDHR_fake_script() -- Player.LocalScript 
+	local script = Instance.new('LocalScript', Player)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.PlayerUi.Visible = true
+	end)
+end
+coroutine.wrap(EIVDHR_fake_script)()
+local function ZEUN_fake_script() -- Reset1.LocalScript 
+	local script = Instance.new('LocalScript', Reset1)
+
+	local hum = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+	
+	script.Parent.MouseButton1Click:Connect(function()
+		hum.WalkSpeed = 16
+	end)
+end
+coroutine.wrap(ZEUN_fake_script)()
+local function EWSIAD_fake_script() -- close.LocalScript 
+	local script = Instance.new('LocalScript', close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(EWSIAD_fake_script)()
+local function UOTY_fake_script() -- Speed.LocalScript 
+	local script = Instance.new('LocalScript', Speed)
+
+	local humanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+	local box = game.Players.LocalPlayer.PlayerGui.ExploitGui.Frame.PlayerUi.Speed
+	
+	script.Parent.Changed:Connect(function()
+			humanoid.WalkSpeed = box.Text
+	end)
+end
+coroutine.wrap(UOTY_fake_script)()
+local function MIYJ_fake_script() -- Jump.LocalScript 
+	local script = Instance.new('LocalScript', Jump)
+
+	local humanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+	local box = game.Players.LocalPlayer.PlayerGui.ExploitGui.Frame.PlayerUi.Jump
+	
+	script.Parent.Changed:Connect(function()
+		humanoid.JumpPower = box.Text
+	end)
+end
+coroutine.wrap(MIYJ_fake_script)()
+local function PQRQTY_fake_script() -- TextButton.LocalScript 
+	local script = Instance.new('LocalScript', TextButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Frame.Visible = false
+	end)
+end
+coroutine.wrap(PQRQTY_fake_script)()
+local function KGMBQA_fake_script() -- Texters.LocalScript 
+	local script = Instance.new('LocalScript', Texters)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Frame.Visible = true
+	end)
+end
+coroutine.wrap(KGMBQA_fake_script)()
