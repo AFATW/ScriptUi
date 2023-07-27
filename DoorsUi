@@ -5,52 +5,59 @@
 
 local DoorsGui = Instance.new("ScreenGui")
 local Home = Instance.new("Frame")
-local UICorner = Instance.new("UICorner")
-local TextLabel = Instance.new("TextLabel")
 local VisualsButton = Instance.new("TextButton")
-local UICorner_2 = Instance.new("UICorner")
-local PlayerButton = Instance.new("TextButton")
-local UICorner_3 = Instance.new("UICorner")
-local OtherButton = Instance.new("TextButton")
-local UICorner_4 = Instance.new("UICorner")
-local TextLabel_2 = Instance.new("TextLabel")
+local UICorner = Instance.new("UICorner")
 local CreditsButton = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local TextLabel = Instance.new("TextLabel")
+local UICorner_3 = Instance.new("UICorner")
+local CreditsFrame = Instance.new("Frame")
+local Crediter2 = Instance.new("TextLabel")
+local Crediter = Instance.new("TextLabel")
+local Close2 = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
 local UICorner_5 = Instance.new("UICorner")
-local VisualsFrame = Instance.new("Frame")
+local Credits = Instance.new("TextLabel")
+local TextLabel_2 = Instance.new("TextLabel")
+local PlayerButton = Instance.new("TextButton")
 local UICorner_6 = Instance.new("UICorner")
+local OtherButton = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local VisualsFrame = Instance.new("Frame")
+local UICorner_8 = Instance.new("UICorner")
 local Visuals = Instance.new("TextLabel")
 local Fullbright = Instance.new("Frame")
-local UICorner_7 = Instance.new("UICorner")
-local TextLabel_3 = Instance.new("TextLabel")
-local OnOff = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
-local Fullbright_2 = Instance.new("Frame")
 local UICorner_9 = Instance.new("UICorner")
-local TextLabel_4 = Instance.new("TextLabel")
-local OnOff_2 = Instance.new("TextButton")
+local OnOff = Instance.new("TextButton")
 local UICorner_10 = Instance.new("UICorner")
-local Fullbright_3 = Instance.new("Frame")
+local TextLabel_3 = Instance.new("TextLabel")
+local Fullbright_2 = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
 local UICorner_11 = Instance.new("UICorner")
-local TextLabel_5 = Instance.new("TextLabel")
-local OnOff_3 = Instance.new("TextButton")
+local OnOff_2 = Instance.new("TextButton")
 local UICorner_12 = Instance.new("UICorner")
-local Fullbright_4 = Instance.new("Frame")
+local Fullbright_3 = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
 local UICorner_13 = Instance.new("UICorner")
+local OnOff_3 = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local Fullbright_4 = Instance.new("Frame")
+local UICorner_15 = Instance.new("UICorner")
 local TextLabel_6 = Instance.new("TextLabel")
 local OnOff_4 = Instance.new("TextButton")
-local UICorner_14 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
 local Fullbright_5 = Instance.new("Frame")
-local UICorner_15 = Instance.new("UICorner")
 local TextLabel_7 = Instance.new("TextLabel")
 local OnOff_5 = Instance.new("TextButton")
-local UICorner_16 = Instance.new("UICorner")
-local Fullbright_6 = Instance.new("Frame")
 local UICorner_17 = Instance.new("UICorner")
-local TextLabel_8 = Instance.new("TextLabel")
-local OnOff_6 = Instance.new("TextButton")
 local UICorner_18 = Instance.new("UICorner")
 local Close = Instance.new("TextButton")
 local UICorner_19 = Instance.new("UICorner")
+local Fullbright_6 = Instance.new("Frame")
+local UICorner_20 = Instance.new("UICorner")
+local OnOff_6 = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local TextLabel_8 = Instance.new("TextLabel")
 
 --Properties:
 
@@ -63,25 +70,8 @@ Home.Parent = DoorsGui
 Home.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Home.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Home.BorderSizePixel = 0
-Home.Position = UDim2.new(0.344213665, 0, 0.193735495, 0)
+Home.Position = UDim2.new(0.674250305, 0, 0.388631105, 0)
 Home.Size = UDim2.new(0, 420, 0, 527)
-
-UICorner.CornerRadius = UDim.new(0, 25)
-UICorner.Parent = Home
-
-TextLabel.Parent = Home
-TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.BackgroundTransparency = 1.000
-TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel.BorderSizePixel = 0
-TextLabel.Position = UDim2.new(0.0738095269, 0, 0.0132827321, 0)
-TextLabel.Size = UDim2.new(0, 360, 0, 66)
-TextLabel.Font = Enum.Font.FredokaOne
-TextLabel.Text = "AFATW's Doors Gui"
-TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel.TextScaled = true
-TextLabel.TextSize = 14.000
-TextLabel.TextWrapped = true
 
 VisualsButton.Name = "VisualsButton"
 VisualsButton.Parent = Home
@@ -97,56 +87,8 @@ VisualsButton.TextScaled = true
 VisualsButton.TextSize = 14.000
 VisualsButton.TextWrapped = true
 
-UICorner_2.CornerRadius = UDim.new(0, 13)
-UICorner_2.Parent = VisualsButton
-
-PlayerButton.Name = "PlayerButton"
-PlayerButton.Parent = Home
-PlayerButton.BackgroundColor3 = Color3.fromRGB(255, 254, 254)
-PlayerButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-PlayerButton.BorderSizePixel = 0
-PlayerButton.Position = UDim2.new(0.128571436, 0, 0.288425058, 0)
-PlayerButton.Size = UDim2.new(0, 312, 0, 44)
-PlayerButton.Font = Enum.Font.DenkOne
-PlayerButton.Text = "Player"
-PlayerButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-PlayerButton.TextScaled = true
-PlayerButton.TextSize = 14.000
-PlayerButton.TextWrapped = true
-
-UICorner_3.CornerRadius = UDim.new(0, 13)
-UICorner_3.Parent = PlayerButton
-
-OtherButton.Name = "OtherButton"
-OtherButton.Parent = Home
-OtherButton.BackgroundColor3 = Color3.fromRGB(255, 254, 254)
-OtherButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
-OtherButton.BorderSizePixel = 0
-OtherButton.Position = UDim2.new(0.128571436, 0, 0.402277052, 0)
-OtherButton.Size = UDim2.new(0, 312, 0, 44)
-OtherButton.Font = Enum.Font.DenkOne
-OtherButton.Text = "Other"
-OtherButton.TextColor3 = Color3.fromRGB(0, 0, 0)
-OtherButton.TextScaled = true
-OtherButton.TextSize = 14.000
-OtherButton.TextWrapped = true
-
-UICorner_4.CornerRadius = UDim.new(0, 13)
-UICorner_4.Parent = OtherButton
-
-TextLabel_2.Parent = Home
-TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.BackgroundTransparency = 1.000
-TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_2.BorderSizePixel = 0
-TextLabel_2.Position = UDim2.new(0.111904763, 0, 0.592030406, 0)
-TextLabel_2.Size = UDim2.new(0, 328, 0, 67)
-TextLabel_2.Font = Enum.Font.SourceSans
-TextLabel_2.Text = "https://discord.gg/4H2w3YUGJk"
-TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_2.TextScaled = true
-TextLabel_2.TextSize = 14.000
-TextLabel_2.TextWrapped = true
+UICorner.CornerRadius = UDim.new(0, 13)
+UICorner.Parent = VisualsButton
 
 CreditsButton.Name = "CreditsButton"
 CreditsButton.Parent = Home
@@ -162,19 +104,157 @@ CreditsButton.TextScaled = true
 CreditsButton.TextSize = 14.000
 CreditsButton.TextWrapped = true
 
-UICorner_5.CornerRadius = UDim.new(0, 13)
-UICorner_5.Parent = CreditsButton
+UICorner_2.CornerRadius = UDim.new(0, 13)
+UICorner_2.Parent = CreditsButton
+
+TextLabel.Parent = Home
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.0738095269, 0, 0.0132827321, 0)
+TextLabel.Size = UDim2.new(0, 360, 0, 66)
+TextLabel.Font = Enum.Font.FredokaOne
+TextLabel.Text = "AFATW's Doors Gui"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UICorner_3.CornerRadius = UDim.new(0, 25)
+UICorner_3.Parent = Home
+
+CreditsFrame.Name = "CreditsFrame"
+CreditsFrame.Parent = Home
+CreditsFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+CreditsFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+CreditsFrame.BorderSizePixel = 0
+CreditsFrame.Position = UDim2.new(0.000609099865, 0, -0.000363230705, 0)
+CreditsFrame.Size = UDim2.new(0, 420, 0, 527)
+CreditsFrame.Visible = false
+
+Crediter2.Name = "Crediter2"
+Crediter2.Parent = CreditsFrame
+Crediter2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Crediter2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Crediter2.BorderSizePixel = 17
+Crediter2.Position = UDim2.new(0.104761906, 0, 0.453510433, 0)
+Crediter2.Size = UDim2.new(0, 331, 0, 95)
+Crediter2.Font = Enum.Font.Highway
+Crediter2.Text = "Me - The guis and buttons and scripts and the owner of this scripts yada yada ya."
+Crediter2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Crediter2.TextScaled = true
+Crediter2.TextSize = 14.000
+Crediter2.TextWrapped = true
+
+Crediter.Name = "Crediter"
+Crediter.Parent = CreditsFrame
+Crediter.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Crediter.BorderColor3 = Color3.fromRGB(255, 255, 255)
+Crediter.BorderSizePixel = 17
+Crediter.Position = UDim2.new(0.102380954, 0, 0.178368121, 0)
+Crediter.Size = UDim2.new(0, 331, 0, 95)
+Crediter.Font = Enum.Font.Highway
+Crediter.Text = "BloodyHax - Explained to me how to make simple god damn scripts."
+Crediter.TextColor3 = Color3.fromRGB(255, 255, 255)
+Crediter.TextScaled = true
+Crediter.TextSize = 14.000
+Crediter.TextWrapped = true
+
+Close2.Name = "Close2"
+Close2.Parent = CreditsFrame
+Close2.BackgroundColor3 = Color3.fromRGB(255, 152, 14)
+Close2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close2.BorderSizePixel = 0
+Close2.Position = UDim2.new(0.230952382, 0, 0.798861504, 0)
+Close2.Size = UDim2.new(0, 226, 0, 52)
+Close2.Font = Enum.Font.FredokaOne
+Close2.Text = "Close"
+Close2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Close2.TextScaled = true
+Close2.TextSize = 14.000
+Close2.TextWrapped = true
+
+UICorner_4.CornerRadius = UDim.new(0, 14)
+UICorner_4.Parent = Close2
+
+UICorner_5.CornerRadius = UDim.new(0, 25)
+UICorner_5.Parent = CreditsFrame
+
+Credits.Name = "Credits"
+Credits.Parent = CreditsFrame
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Credits.BorderSizePixel = 0
+Credits.Position = UDim2.new(0.0642857179, 0, 0.0132827321, 0)
+Credits.Size = UDim2.new(0, 363, 0, 58)
+Credits.Font = Enum.Font.FredokaOne
+Credits.Text = "Credits"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+TextLabel_2.Parent = Home
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BackgroundTransparency = 1.000
+TextLabel_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.111904763, 0, 0.592030406, 0)
+TextLabel_2.Size = UDim2.new(0, 328, 0, 67)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = "https://discord.gg/4H2w3YUGJk"
+TextLabel_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14.000
+TextLabel_2.TextWrapped = true
+
+PlayerButton.Name = "PlayerButton"
+PlayerButton.Parent = Home
+PlayerButton.BackgroundColor3 = Color3.fromRGB(255, 254, 254)
+PlayerButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+PlayerButton.BorderSizePixel = 0
+PlayerButton.Position = UDim2.new(0.128571436, 0, 0.288425058, 0)
+PlayerButton.Size = UDim2.new(0, 312, 0, 44)
+PlayerButton.Font = Enum.Font.DenkOne
+PlayerButton.Text = "Player"
+PlayerButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+PlayerButton.TextScaled = true
+PlayerButton.TextSize = 14.000
+PlayerButton.TextWrapped = true
+
+UICorner_6.CornerRadius = UDim.new(0, 13)
+UICorner_6.Parent = PlayerButton
+
+OtherButton.Name = "OtherButton"
+OtherButton.Parent = Home
+OtherButton.BackgroundColor3 = Color3.fromRGB(255, 254, 254)
+OtherButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OtherButton.BorderSizePixel = 0
+OtherButton.Position = UDim2.new(0.128571436, 0, 0.402277052, 0)
+OtherButton.Size = UDim2.new(0, 312, 0, 44)
+OtherButton.Font = Enum.Font.DenkOne
+OtherButton.Text = "Other"
+OtherButton.TextColor3 = Color3.fromRGB(0, 0, 0)
+OtherButton.TextScaled = true
+OtherButton.TextSize = 14.000
+OtherButton.TextWrapped = true
+
+UICorner_7.CornerRadius = UDim.new(0, 13)
+UICorner_7.Parent = OtherButton
 
 VisualsFrame.Name = "VisualsFrame"
-VisualsFrame.Parent = DoorsGui
+VisualsFrame.Parent = Home
 VisualsFrame.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 VisualsFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 VisualsFrame.BorderSizePixel = 0
-VisualsFrame.Position = UDim2.new(0.344955534, 0, 0.193735495, 0)
+VisualsFrame.Position = UDim2.new(0.00220912695, 0, -0.000363200903, 0)
 VisualsFrame.Size = UDim2.new(0, 419, 0, 527)
+VisualsFrame.Visible = false
 
-UICorner_6.CornerRadius = UDim.new(0, 25)
-UICorner_6.Parent = VisualsFrame
+UICorner_8.CornerRadius = UDim.new(0, 25)
+UICorner_8.Parent = VisualsFrame
 
 Visuals.Name = "Visuals"
 Visuals.Parent = VisualsFrame
@@ -182,7 +262,7 @@ Visuals.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Visuals.BackgroundTransparency = 1.000
 Visuals.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Visuals.BorderSizePixel = 0
-Visuals.Position = UDim2.new(0.174224347, 0, 0.034155596, 0)
+Visuals.Position = UDim2.new(0.181384251, 0, 0.0284629967, 0)
 Visuals.Size = UDim2.new(0, 267, 0, 49)
 Visuals.Font = Enum.Font.FredokaOne
 Visuals.Text = "Visuals"
@@ -196,24 +276,10 @@ Fullbright.Parent = VisualsFrame
 Fullbright.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
 Fullbright.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Fullbright.BorderSizePixel = 0
-Fullbright.Position = UDim2.new(0.0596658699, 0, 0.15749526, 0)
+Fullbright.Position = UDim2.new(0.0596658699, 0, 0.256166995, 0)
 Fullbright.Size = UDim2.new(0, 362, 0, 44)
 
-UICorner_7.Parent = Fullbright
-
-TextLabel_3.Parent = Fullbright
-TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.BackgroundTransparency = 1.000
-TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_3.BorderSizePixel = 0
-TextLabel_3.Position = UDim2.new(0.0580110513, 0, 0.0681818202, 0)
-TextLabel_3.Size = UDim2.new(0, 193, 0, 37)
-TextLabel_3.Font = Enum.Font.Arial
-TextLabel_3.Text = "Fullbright"
-TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_3.TextScaled = true
-TextLabel_3.TextSize = 14.000
-TextLabel_3.TextWrapped = true
+UICorner_9.Parent = Fullbright
 
 OnOff.Name = "On/Off"
 OnOff.Parent = Fullbright
@@ -229,18 +295,30 @@ OnOff.TextScaled = true
 OnOff.TextSize = 14.000
 OnOff.TextWrapped = true
 
-UICorner_8.CornerRadius = UDim.new(0, 15)
-UICorner_8.Parent = OnOff
+UICorner_10.CornerRadius = UDim.new(0, 15)
+UICorner_10.Parent = OnOff
+
+TextLabel_3.Parent = Fullbright
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0.0580110513, 0, 0.0681818202, 0)
+TextLabel_3.Size = UDim2.new(0, 193, 0, 37)
+TextLabel_3.Font = Enum.Font.Arial
+TextLabel_3.Text = "Fullbright"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
 
 Fullbright_2.Name = "Fullbright"
 Fullbright_2.Parent = VisualsFrame
 Fullbright_2.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
 Fullbright_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Fullbright_2.BorderSizePixel = 0
-Fullbright_2.Position = UDim2.new(0.0596658699, 0, 0.256166995, 0)
+Fullbright_2.Position = UDim2.new(0.0596658699, 0, 0.5635674, 0)
 Fullbright_2.Size = UDim2.new(0, 362, 0, 44)
-
-UICorner_9.Parent = Fullbright_2
 
 TextLabel_4.Parent = Fullbright_2
 TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -256,6 +334,8 @@ TextLabel_4.TextScaled = true
 TextLabel_4.TextSize = 14.000
 TextLabel_4.TextWrapped = true
 
+UICorner_11.Parent = Fullbright_2
+
 OnOff_2.Name = "On/Off"
 OnOff_2.Parent = Fullbright_2
 OnOff_2.BackgroundColor3 = Color3.fromRGB(255, 138, 0)
@@ -270,18 +350,16 @@ OnOff_2.TextScaled = true
 OnOff_2.TextSize = 14.000
 OnOff_2.TextWrapped = true
 
-UICorner_10.CornerRadius = UDim.new(0, 15)
-UICorner_10.Parent = OnOff_2
+UICorner_12.CornerRadius = UDim.new(0, 15)
+UICorner_12.Parent = OnOff_2
 
 Fullbright_3.Name = "Fullbright"
 Fullbright_3.Parent = VisualsFrame
 Fullbright_3.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
 Fullbright_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Fullbright_3.BorderSizePixel = 0
-Fullbright_3.Position = UDim2.new(0.0596658699, 0, 0.358633786, 0)
+Fullbright_3.Position = UDim2.new(0.0596658699, 0, 0.664136648, 0)
 Fullbright_3.Size = UDim2.new(0, 362, 0, 44)
-
-UICorner_11.Parent = Fullbright_3
 
 TextLabel_5.Parent = Fullbright_3
 TextLabel_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -297,6 +375,8 @@ TextLabel_5.TextScaled = true
 TextLabel_5.TextSize = 14.000
 TextLabel_5.TextWrapped = true
 
+UICorner_13.Parent = Fullbright_3
+
 OnOff_3.Name = "On/Off"
 OnOff_3.Parent = Fullbright_3
 OnOff_3.BackgroundColor3 = Color3.fromRGB(255, 138, 0)
@@ -311,18 +391,18 @@ OnOff_3.TextScaled = true
 OnOff_3.TextSize = 14.000
 OnOff_3.TextWrapped = true
 
-UICorner_12.CornerRadius = UDim.new(0, 15)
-UICorner_12.Parent = OnOff_3
+UICorner_14.CornerRadius = UDim.new(0, 15)
+UICorner_14.Parent = OnOff_3
 
 Fullbright_4.Name = "Fullbright"
 Fullbright_4.Parent = VisualsFrame
 Fullbright_4.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
 Fullbright_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Fullbright_4.BorderSizePixel = 0
-Fullbright_4.Position = UDim2.new(0.0596658699, 0, 0.459203064, 0)
+Fullbright_4.Position = UDim2.new(0.0596658699, 0, 0.15749526, 0)
 Fullbright_4.Size = UDim2.new(0, 362, 0, 44)
 
-UICorner_13.Parent = Fullbright_4
+UICorner_15.Parent = Fullbright_4
 
 TextLabel_6.Parent = Fullbright_4
 TextLabel_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -352,18 +432,16 @@ OnOff_4.TextScaled = true
 OnOff_4.TextSize = 14.000
 OnOff_4.TextWrapped = true
 
-UICorner_14.CornerRadius = UDim.new(0, 15)
-UICorner_14.Parent = OnOff_4
+UICorner_16.CornerRadius = UDim.new(0, 15)
+UICorner_16.Parent = OnOff_4
 
 Fullbright_5.Name = "Fullbright"
 Fullbright_5.Parent = VisualsFrame
 Fullbright_5.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
 Fullbright_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Fullbright_5.BorderSizePixel = 0
-Fullbright_5.Position = UDim2.new(0.0596658699, 0, 0.5635674, 0)
+Fullbright_5.Position = UDim2.new(0.0596658699, 0, 0.358633786, 0)
 Fullbright_5.Size = UDim2.new(0, 362, 0, 44)
-
-UICorner_15.Parent = Fullbright_5
 
 TextLabel_7.Parent = Fullbright_5
 TextLabel_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
@@ -393,49 +471,10 @@ OnOff_5.TextScaled = true
 OnOff_5.TextSize = 14.000
 OnOff_5.TextWrapped = true
 
-UICorner_16.CornerRadius = UDim.new(0, 15)
-UICorner_16.Parent = OnOff_5
+UICorner_17.CornerRadius = UDim.new(0, 15)
+UICorner_17.Parent = OnOff_5
 
-Fullbright_6.Name = "Fullbright"
-Fullbright_6.Parent = VisualsFrame
-Fullbright_6.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
-Fullbright_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Fullbright_6.BorderSizePixel = 0
-Fullbright_6.Position = UDim2.new(0.0596658699, 0, 0.664136648, 0)
-Fullbright_6.Size = UDim2.new(0, 362, 0, 44)
-
-UICorner_17.Parent = Fullbright_6
-
-TextLabel_8.Parent = Fullbright_6
-TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.BackgroundTransparency = 1.000
-TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
-TextLabel_8.BorderSizePixel = 0
-TextLabel_8.Position = UDim2.new(0.0580110513, 0, 0.0681818202, 0)
-TextLabel_8.Size = UDim2.new(0, 193, 0, 37)
-TextLabel_8.Font = Enum.Font.Arial
-TextLabel_8.Text = "Fullbright"
-TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
-TextLabel_8.TextScaled = true
-TextLabel_8.TextSize = 14.000
-TextLabel_8.TextWrapped = true
-
-OnOff_6.Name = "On/Off"
-OnOff_6.Parent = Fullbright_6
-OnOff_6.BackgroundColor3 = Color3.fromRGB(255, 138, 0)
-OnOff_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
-OnOff_6.BorderSizePixel = 0
-OnOff_6.Position = UDim2.new(0.591160178, 0, 0.181818187, 0)
-OnOff_6.Size = UDim2.new(0, 102, 0, 27)
-OnOff_6.Font = Enum.Font.SourceSans
-OnOff_6.Text = "On"
-OnOff_6.TextColor3 = Color3.fromRGB(255, 255, 255)
-OnOff_6.TextScaled = true
-OnOff_6.TextSize = 14.000
-OnOff_6.TextWrapped = true
-
-UICorner_18.CornerRadius = UDim.new(0, 15)
-UICorner_18.Parent = OnOff_6
+UICorner_18.Parent = Fullbright_5
 
 Close.Name = "Close"
 Close.Parent = VisualsFrame
@@ -454,21 +493,106 @@ Close.TextWrapped = true
 UICorner_19.CornerRadius = UDim.new(0, 14)
 UICorner_19.Parent = Close
 
+Fullbright_6.Name = "Fullbright"
+Fullbright_6.Parent = VisualsFrame
+Fullbright_6.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+Fullbright_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fullbright_6.BorderSizePixel = 0
+Fullbright_6.Position = UDim2.new(0.0596658699, 0, 0.459203064, 0)
+Fullbright_6.Size = UDim2.new(0, 362, 0, 44)
+
+UICorner_20.Parent = Fullbright_6
+
+OnOff_6.Name = "On/Off"
+OnOff_6.Parent = Fullbright_6
+OnOff_6.BackgroundColor3 = Color3.fromRGB(255, 138, 0)
+OnOff_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OnOff_6.BorderSizePixel = 0
+OnOff_6.Position = UDim2.new(0.591160178, 0, 0.181818187, 0)
+OnOff_6.Size = UDim2.new(0, 102, 0, 27)
+OnOff_6.Font = Enum.Font.SourceSans
+OnOff_6.Text = "On"
+OnOff_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+OnOff_6.TextScaled = true
+OnOff_6.TextSize = 14.000
+OnOff_6.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 15)
+UICorner_21.Parent = OnOff_6
+
+TextLabel_8.Parent = Fullbright_6
+TextLabel_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.BackgroundTransparency = 1.000
+TextLabel_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.0580110513, 0, 0.0681818202, 0)
+TextLabel_8.Size = UDim2.new(0, 193, 0, 37)
+TextLabel_8.Font = Enum.Font.Arial
+TextLabel_8.Text = "Fullbright"
+TextLabel_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14.000
+TextLabel_8.TextWrapped = true
+
 -- Scripts:
 
-local function NYCOV_fake_script() -- VisualsButton.LocalScript 
+local function PNRI_fake_script() -- Home.LocalScript 
+	local script = Instance.new('LocalScript', Home)
+
+	local frame = script.Parent	
+	
+	frame.Draggable = true
+	frame.Selectable = true
+	frame.Active = true
+end
+coroutine.wrap(PNRI_fake_script)()
+local function ZMGLWT_fake_script() -- VisualsButton.LocalScript 
 	local script = Instance.new('LocalScript', VisualsButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.VisualsFrame.Visible = true
+		script.Parent.Parent.VisualsFrame.Visible = true
 	end)
 end
-coroutine.wrap(NYCOV_fake_script)()
-local function KPABS_fake_script() -- Close.LocalScript 
+coroutine.wrap(ZMGLWT_fake_script)()
+local function LNPKS_fake_script() -- CreditsButton.LocalScript 
+	local script = Instance.new('LocalScript', CreditsButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.CreditsFrame.Visible = true
+	end)
+end
+coroutine.wrap(LNPKS_fake_script)()
+local function KJSE_fake_script() -- Close2.LocalScript 
+	local script = Instance.new('LocalScript', Close2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Visible = false
+	end)
+end
+coroutine.wrap(KJSE_fake_script)()
+local function FPRAI_fake_script() -- OnOff_4.LocalScript 
+	local script = Instance.new('LocalScript', OnOff_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Light = game:GetService("Lighting")
+	
+		function dofullbright()
+			Light.Ambient = Color3.new(1, 1, 1)
+			Light.ColorShift_Bottom = Color3.new(1, 1, 1)
+			Light.ColorShift_Top = Color3.new(1, 1, 1)
+		end
+	
+		dofullbright()
+	
+		Light.LightingChanged:Connect(dofullbright)
+	end)
+end
+coroutine.wrap(FPRAI_fake_script)()
+local function WXOFMRD_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Visible = false
 	end)
 end
-coroutine.wrap(KPABS_fake_script)()
+coroutine.wrap(WXOFMRD_fake_script)()
