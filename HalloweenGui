@@ -1,0 +1,495 @@
+-- Gui to Lua
+-- Version: 3.2
+
+-- Instances:
+
+local FluxusLikeExploit = Instance.new("ScreenGui")
+local Base = Instance.new("Frame")
+local UICorner = Instance.new("UICorner")
+local Exploits = Instance.new("ScrollingFrame")
+local Games = Instance.new("TextButton")
+local UICorner_2 = Instance.new("UICorner")
+local Main = Instance.new("TextButton")
+local UICorner_3 = Instance.new("UICorner")
+local Visuals = Instance.new("TextButton")
+local UICorner_4 = Instance.new("UICorner")
+local Visuals_2 = Instance.new("TextButton")
+local UICorner_5 = Instance.new("UICorner")
+local GamesFrame = Instance.new("ScrollingFrame")
+local FunkyFriday = Instance.new("Frame")
+local Title = Instance.new("TextLabel")
+local ExecuterButton = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
+local Doors = Instance.new("Frame")
+local Title_2 = Instance.new("TextLabel")
+local ExecuterButton_2 = Instance.new("TextButton")
+local UICorner_7 = Instance.new("UICorner")
+local OBYOAB = Instance.new("Frame")
+local Title_3 = Instance.new("TextLabel")
+local ExecuterButton_3 = Instance.new("TextButton")
+local UICorner_8 = Instance.new("UICorner")
+local Close = Instance.new("ImageButton")
+local Icon = Instance.new("ImageLabel")
+local Title_4 = Instance.new("TextLabel")
+local License = Instance.new("ScrollingFrame")
+local Title_5 = Instance.new("TextLabel")
+local Desc = Instance.new("TextLabel")
+local MainFrame = Instance.new("ScrollingFrame")
+local Speed = Instance.new("TextLabel")
+local SpeedPick = Instance.new("TextBox")
+local Jump = Instance.new("TextLabel")
+local JumpPick = Instance.new("TextBox")
+local Close_2 = Instance.new("ImageButton")
+
+--Properties:
+
+FluxusLikeExploit.Name = "FluxusLikeExploit"
+FluxusLikeExploit.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+FluxusLikeExploit.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Base.Name = "Base"
+Base.Parent = FluxusLikeExploit
+Base.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Base.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Base.BorderSizePixel = 0
+Base.Position = UDim2.new(0.0855750367, 0, 0.22853829, 0)
+Base.Size = UDim2.new(0, 394, 0, 257)
+
+UICorner.CornerRadius = UDim.new(0, 20)
+UICorner.Parent = Base
+
+Exploits.Name = "Exploits"
+Exploits.Parent = Base
+Exploits.Active = true
+Exploits.BackgroundColor3 = Color3.fromRGB(41, 41, 41)
+Exploits.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Exploits.BorderSizePixel = 0
+Exploits.Position = UDim2.new(0.0329949223, 0, 0.159533069, 0)
+Exploits.Size = UDim2.new(0, 89, 0, 202)
+
+Games.Name = "Games"
+Games.Parent = Exploits
+Games.BackgroundColor3 = Color3.fromRGB(255, 141, 75)
+Games.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Games.BorderSizePixel = 0
+Games.Position = UDim2.new(0.101123594, 0, 0.0358376503, 0)
+Games.Size = UDim2.new(0, 71, 0, 26)
+Games.Font = Enum.Font.FredokaOne
+Games.Text = "Games"
+Games.TextColor3 = Color3.fromRGB(255, 255, 255)
+Games.TextScaled = true
+Games.TextSize = 14.000
+Games.TextWrapped = true
+
+UICorner_2.Parent = Games
+
+Main.Name = "Main"
+Main.Parent = Exploits
+Main.BackgroundColor3 = Color3.fromRGB(255, 141, 75)
+Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Main.BorderSizePixel = 0
+Main.Position = UDim2.new(0.101000004, 0, 0.100000001, 0)
+Main.Size = UDim2.new(0, 71, 0, 26)
+Main.Font = Enum.Font.FredokaOne
+Main.Text = "Main"
+Main.TextColor3 = Color3.fromRGB(255, 255, 255)
+Main.TextScaled = true
+Main.TextSize = 14.000
+Main.TextWrapped = true
+
+UICorner_3.Parent = Main
+
+Visuals.Name = "Visuals"
+Visuals.Parent = Exploits
+Visuals.BackgroundColor3 = Color3.fromRGB(255, 141, 75)
+Visuals.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Visuals.BorderSizePixel = 0
+Visuals.Position = UDim2.new(0.101000004, 0, 0.165000007, 0)
+Visuals.Size = UDim2.new(0, 71, 0, 26)
+Visuals.Font = Enum.Font.FredokaOne
+Visuals.Text = "Visuals"
+Visuals.TextColor3 = Color3.fromRGB(255, 255, 255)
+Visuals.TextScaled = true
+Visuals.TextSize = 14.000
+Visuals.TextWrapped = true
+
+UICorner_4.Parent = Visuals
+
+Visuals_2.Name = "Visuals"
+Visuals_2.Parent = Exploits
+Visuals_2.BackgroundColor3 = Color3.fromRGB(255, 141, 75)
+Visuals_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Visuals_2.BorderSizePixel = 0
+Visuals_2.Position = UDim2.new(0.101000004, 0, 0.230000004, 0)
+Visuals_2.Size = UDim2.new(0, 71, 0, 26)
+Visuals_2.Font = Enum.Font.FredokaOne
+Visuals_2.Text = "Other Scripts"
+Visuals_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Visuals_2.TextScaled = true
+Visuals_2.TextSize = 14.000
+Visuals_2.TextWrapped = true
+
+UICorner_5.Parent = Visuals_2
+
+GamesFrame.Name = "GamesFrame"
+GamesFrame.Parent = Base
+GamesFrame.Active = true
+GamesFrame.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+GamesFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+GamesFrame.BorderSizePixel = 0
+GamesFrame.Position = UDim2.new(0.314720809, 0, 0.159533069, 0)
+GamesFrame.Size = UDim2.new(0, 259, 0, 202)
+GamesFrame.Visible = false
+GamesFrame.ZIndex = 2
+
+FunkyFriday.Name = "FunkyFriday"
+FunkyFriday.Parent = GamesFrame
+FunkyFriday.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+FunkyFriday.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FunkyFriday.BorderSizePixel = 0
+FunkyFriday.Position = UDim2.new(0.050193049, 0, 0.0315533616, 0)
+FunkyFriday.Size = UDim2.new(0, 233, 0, 26)
+
+Title.Name = "Title"
+Title.Parent = FunkyFriday
+Title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title.BackgroundTransparency = 1.000
+Title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title.BorderSizePixel = 0
+Title.Position = UDim2.new(0, 0, 0.0462364778, 0)
+Title.Size = UDim2.new(0, 131, 0, 23)
+Title.Font = Enum.Font.FredokaOne
+Title.Text = "Funky Friday"
+Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title.TextScaled = true
+Title.TextSize = 14.000
+Title.TextWrapped = true
+
+ExecuterButton.Name = "ExecuterButton"
+ExecuterButton.Parent = FunkyFriday
+ExecuterButton.BackgroundColor3 = Color3.fromRGB(255, 148, 44)
+ExecuterButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecuterButton.BorderSizePixel = 0
+ExecuterButton.Position = UDim2.new(0.562231779, 0, 0.0769230798, 0)
+ExecuterButton.Size = UDim2.new(0, 102, 0, 22)
+ExecuterButton.Font = Enum.Font.FredokaOne
+ExecuterButton.Text = "Execute Best Script"
+ExecuterButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecuterButton.TextScaled = true
+ExecuterButton.TextSize = 14.000
+ExecuterButton.TextWrapped = true
+
+UICorner_6.Parent = ExecuterButton
+
+Doors.Name = "Doors"
+Doors.Parent = GamesFrame
+Doors.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+Doors.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Doors.BorderSizePixel = 0
+Doors.Position = UDim2.new(0.0500000007, 0, 0.0900000036, 0)
+Doors.Size = UDim2.new(0, 233, 0, 26)
+
+Title_2.Name = "Title"
+Title_2.Parent = Doors
+Title_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.BackgroundTransparency = 1.000
+Title_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title_2.BorderSizePixel = 0
+Title_2.Position = UDim2.new(0, 0, 0.084698014, 0)
+Title_2.Size = UDim2.new(0, 131, 0, 23)
+Title_2.Font = Enum.Font.FredokaOne
+Title_2.Text = "Doors"
+Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_2.TextScaled = true
+Title_2.TextSize = 14.000
+Title_2.TextWrapped = true
+
+ExecuterButton_2.Name = "ExecuterButton"
+ExecuterButton_2.Parent = Doors
+ExecuterButton_2.BackgroundColor3 = Color3.fromRGB(255, 148, 44)
+ExecuterButton_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecuterButton_2.BorderSizePixel = 0
+ExecuterButton_2.Position = UDim2.new(0.562231779, 0, 0.0769230798, 0)
+ExecuterButton_2.Size = UDim2.new(0, 102, 0, 22)
+ExecuterButton_2.Font = Enum.Font.FredokaOne
+ExecuterButton_2.Text = "Execute Best Script"
+ExecuterButton_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecuterButton_2.TextScaled = true
+ExecuterButton_2.TextSize = 14.000
+ExecuterButton_2.TextWrapped = true
+
+UICorner_7.Parent = ExecuterButton_2
+
+OBYOAB.Name = "OBYOAB"
+OBYOAB.Parent = GamesFrame
+OBYOAB.BackgroundColor3 = Color3.fromRGB(20, 20, 20)
+OBYOAB.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OBYOAB.BorderSizePixel = 0
+OBYOAB.Position = UDim2.new(0.0500000007, 0, 0.150000006, 0)
+OBYOAB.Size = UDim2.new(0, 233, 0, 26)
+
+Title_3.Name = "Title"
+Title_3.Parent = OBYOAB
+Title_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.BackgroundTransparency = 1.000
+Title_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title_3.BorderSizePixel = 0
+Title_3.Position = UDim2.new(0, 0, 0.084698014, 0)
+Title_3.Size = UDim2.new(0, 131, 0, 23)
+Title_3.Font = Enum.Font.FredokaOne
+Title_3.Text = "Obby but you're on a Bike"
+Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_3.TextScaled = true
+Title_3.TextSize = 14.000
+Title_3.TextWrapped = true
+
+ExecuterButton_3.Name = "ExecuterButton"
+ExecuterButton_3.Parent = OBYOAB
+ExecuterButton_3.BackgroundColor3 = Color3.fromRGB(255, 148, 44)
+ExecuterButton_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+ExecuterButton_3.BorderSizePixel = 0
+ExecuterButton_3.Position = UDim2.new(0.562231779, 0, 0.0769230798, 0)
+ExecuterButton_3.Size = UDim2.new(0, 102, 0, 22)
+ExecuterButton_3.Font = Enum.Font.FredokaOne
+ExecuterButton_3.Text = "Execute Best Script"
+ExecuterButton_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+ExecuterButton_3.TextScaled = true
+ExecuterButton_3.TextSize = 14.000
+ExecuterButton_3.TextWrapped = true
+
+UICorner_8.Parent = ExecuterButton_3
+
+Close.Name = "Close"
+Close.Parent = GamesFrame
+Close.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close.BackgroundTransparency = 1.000
+Close.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close.BorderSizePixel = 0
+Close.Size = UDim2.new(0, 20, 0, 18)
+Close.Image = "rbxassetid://9545003266"
+
+Icon.Name = "Icon"
+Icon.Parent = Base
+Icon.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Icon.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Icon.BorderSizePixel = 0
+Icon.Position = UDim2.new(0.0532994941, 0, 0.023346303, 0)
+Icon.Size = UDim2.new(0, 36, 0, 29)
+Icon.Image = "rbxassetid://15058102165"
+
+Title_4.Name = "Title"
+Title_4.Parent = Base
+Title_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.BackgroundTransparency = 1.000
+Title_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title_4.BorderSizePixel = 0
+Title_4.Position = UDim2.new(0.172588825, 0, 0.023346303, 0)
+Title_4.Size = UDim2.new(0, 290, 0, 29)
+Title_4.Font = Enum.Font.SourceSans
+Title_4.Text = "WH1T3's Halloween Gui"
+Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.TextScaled = true
+Title_4.TextSize = 14.000
+Title_4.TextStrokeColor3 = Color3.fromRGB(255, 255, 255)
+Title_4.TextWrapped = true
+
+License.Name = "License"
+License.Parent = Base
+License.Active = true
+License.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+License.BorderColor3 = Color3.fromRGB(0, 0, 0)
+License.BorderSizePixel = 0
+License.Position = UDim2.new(0.314720809, 0, 0.159533069, 0)
+License.Size = UDim2.new(0, 259, 0, 202)
+
+Title_5.Name = "Title"
+Title_5.Parent = License
+Title_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.BackgroundTransparency = 1.000
+Title_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title_5.BorderSizePixel = 0
+Title_5.Position = UDim2.new(0.111969113, 0, 0.0125968102, 0)
+Title_5.Size = UDim2.new(0, 200, 0, 24)
+Title_5.Font = Enum.Font.SourceSans
+Title_5.Text = "License Agreement"
+Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_5.TextScaled = true
+Title_5.TextSize = 14.000
+Title_5.TextWrapped = true
+
+Desc.Name = "Desc"
+Desc.Parent = License
+Desc.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Desc.BackgroundTransparency = 1.000
+Desc.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Desc.BorderSizePixel = 0
+Desc.Position = UDim2.new(0.0270270277, 0, 0.0862443373, 0)
+Desc.Size = UDim2.new(0, 252, 0, 182)
+Desc.Font = Enum.Font.SourceSans
+Desc.Text = "Listen here Player, I don't want you to Exploit so much and get Caught by Roblox and get put in fucking Jail. Just Exploit carefully and you will be Fine. However abusing the Doors Gui is fine as long as you're in Solo or else you're gonna get Beaten up by the School Bullies and get your Roblox account get put as an Old Fart at a Retirement Home, So be safe!!! What i'm trying to do is not to get you banned from Roblox because then you would fucking Sue me and i do not want that, If you want, i'm working on a Windows Xp game so i would love if you would Check it out, it's coming Soon."
+Desc.TextColor3 = Color3.fromRGB(255, 255, 255)
+Desc.TextSize = 14.000
+Desc.TextWrapped = true
+Desc.TextYAlignment = Enum.TextYAlignment.Top
+
+MainFrame.Name = "MainFrame"
+MainFrame.Parent = Base
+MainFrame.Active = true
+MainFrame.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+MainFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MainFrame.BorderSizePixel = 0
+MainFrame.Position = UDim2.new(0.314720809, 0, 0.159533069, 0)
+MainFrame.Size = UDim2.new(0, 259, 0, 202)
+MainFrame.Visible = false
+
+Speed.Name = "Speed"
+Speed.Parent = MainFrame
+Speed.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Speed.BackgroundTransparency = 1.000
+Speed.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Speed.BorderSizePixel = 0
+Speed.Position = UDim2.new(0.239382237, 0, -0.000749946805, 0)
+Speed.Size = UDim2.new(0, 134, 0, 29)
+Speed.Font = Enum.Font.FredokaOne
+Speed.Text = "Speed"
+Speed.TextColor3 = Color3.fromRGB(255, 255, 255)
+Speed.TextScaled = true
+Speed.TextSize = 14.000
+Speed.TextWrapped = true
+
+SpeedPick.Name = "SpeedPick"
+SpeedPick.Parent = MainFrame
+SpeedPick.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SpeedPick.BorderColor3 = Color3.fromRGB(0, 0, 0)
+SpeedPick.BorderSizePixel = 0
+SpeedPick.Position = UDim2.new(0.111969113, 0, 0.0607360229, 0)
+SpeedPick.Size = UDim2.new(0, 200, 0, 37)
+SpeedPick.Font = Enum.Font.SourceSans
+SpeedPick.PlaceholderText = "Enter Speed Number Here"
+SpeedPick.Text = ""
+SpeedPick.TextColor3 = Color3.fromRGB(0, 0, 0)
+SpeedPick.TextScaled = true
+SpeedPick.TextSize = 14.000
+SpeedPick.TextWrapped = true
+
+Jump.Name = "Jump"
+Jump.Parent = MainFrame
+Jump.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Jump.BackgroundTransparency = 1.000
+Jump.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Jump.BorderSizePixel = 0
+Jump.Position = UDim2.new(0.239382237, 0, 0.141656101, 0)
+Jump.Size = UDim2.new(0, 134, 0, 29)
+Jump.Font = Enum.Font.FredokaOne
+Jump.Text = "Jump Power"
+Jump.TextColor3 = Color3.fromRGB(255, 255, 255)
+Jump.TextScaled = true
+Jump.TextSize = 14.000
+Jump.TextWrapped = true
+
+JumpPick.Name = "JumpPick"
+JumpPick.Parent = MainFrame
+JumpPick.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+JumpPick.BorderColor3 = Color3.fromRGB(0, 0, 0)
+JumpPick.BorderSizePixel = 0
+JumpPick.Position = UDim2.new(0.111969113, 0, 0.199100614, 0)
+JumpPick.Size = UDim2.new(0, 200, 0, 37)
+JumpPick.Font = Enum.Font.SourceSans
+JumpPick.PlaceholderText = "Enter Jump Number Here"
+JumpPick.Text = ""
+JumpPick.TextColor3 = Color3.fromRGB(0, 0, 0)
+JumpPick.TextScaled = true
+JumpPick.TextSize = 14.000
+JumpPick.TextWrapped = true
+
+Close_2.Name = "Close"
+Close_2.Parent = MainFrame
+Close_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_2.BackgroundTransparency = 1.000
+Close_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close_2.BorderSizePixel = 0
+Close_2.Size = UDim2.new(0, 20, 0, 18)
+Close_2.Image = "rbxassetid://9545003266"
+
+-- Scripts:
+
+local function UQNLPPO_fake_script() -- Games.LocalScript 
+	local script = Instance.new('LocalScript', Games)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.GamesFrame.Visible = true
+		script.Parent.Parent.Parent.MainFrame.Visible = false
+	end)
+end
+coroutine.wrap(UQNLPPO_fake_script)()
+local function GTOE_fake_script() -- Main.LocalScript 
+	local script = Instance.new('LocalScript', Main)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.MainFrame.Visible = true
+		script.Parent.Parent.Parent.GamesFrame.Visible = false
+	end)
+end
+coroutine.wrap(GTOE_fake_script)()
+local function ASRRX_fake_script() -- ExecuterButton.LocalScript 
+	local script = Instance.new('LocalScript', ExecuterButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+	end)
+end
+coroutine.wrap(ASRRX_fake_script)()
+local function XSZHP_fake_script() -- ExecuterButton_2.LocalScript 
+	local script = Instance.new('LocalScript', ExecuterButton_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+	end)
+end
+coroutine.wrap(XSZHP_fake_script)()
+local function LWGOJFD_fake_script() -- ExecuterButton_3.LocalScript 
+	local script = Instance.new('LocalScript', ExecuterButton_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://github.com/KhSaeed90/Roblox/raw/workspace/14184086618"))()
+	end)
+end
+coroutine.wrap(LWGOJFD_fake_script)()
+local function RTBLPK_fake_script() -- Close.LocalScript 
+	local script = Instance.new('LocalScript', Close)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.GamesFrame.Visible = false
+	end)
+end
+coroutine.wrap(RTBLPK_fake_script)()
+local function TDRN_fake_script() -- SpeedPick.LocalScript 
+	local script = Instance.new('LocalScript', SpeedPick)
+
+	local humanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+	local box = game.Players.LocalPlayer.PlayerGui.FluxusLikeExploit.Base.MainFrame.SpeedPick
+	
+	script.Parent.Changed:Connect(function()
+		humanoid.WalkSpeed = box.Text
+	end)
+end
+coroutine.wrap(TDRN_fake_script)()
+local function ZITUUPD_fake_script() -- JumpPick.LocalScript 
+	local script = Instance.new('LocalScript', JumpPick)
+
+	local humanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
+	local box = game.Players.LocalPlayer.PlayerGui.FluxusLikeExploit.Base.MainFrame.JumpPick
+	
+	script.Parent.Changed:Connect(function()
+		humanoid.JumpPower = box.Text
+	end)
+end
+coroutine.wrap(ZITUUPD_fake_script)()
+local function OIXJZJJ_fake_script() -- Close_2.LocalScript 
+	local script = Instance.new('LocalScript', Close_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.MainFrame.Visible = false
+	end)
+end
+coroutine.wrap(OIXJZJJ_fake_script)()
