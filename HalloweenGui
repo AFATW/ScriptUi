@@ -13,21 +13,23 @@ local Main = Instance.new("TextButton")
 local UICorner_3 = Instance.new("UICorner")
 local Visuals = Instance.new("TextButton")
 local UICorner_4 = Instance.new("UICorner")
-local Visuals_2 = Instance.new("TextButton")
+local OtherScripts = Instance.new("TextButton")
 local UICorner_5 = Instance.new("UICorner")
+local Music = Instance.new("TextButton")
+local UICorner_6 = Instance.new("UICorner")
 local GamesFrame = Instance.new("ScrollingFrame")
 local FunkyFriday = Instance.new("Frame")
 local Title = Instance.new("TextLabel")
 local ExecuterButton = Instance.new("TextButton")
-local UICorner_6 = Instance.new("UICorner")
+local UICorner_7 = Instance.new("UICorner")
 local Doors = Instance.new("Frame")
 local Title_2 = Instance.new("TextLabel")
 local ExecuterButton_2 = Instance.new("TextButton")
-local UICorner_7 = Instance.new("UICorner")
+local UICorner_8 = Instance.new("UICorner")
 local OBYOAB = Instance.new("Frame")
 local Title_3 = Instance.new("TextLabel")
 local ExecuterButton_3 = Instance.new("TextButton")
-local UICorner_8 = Instance.new("UICorner")
+local UICorner_9 = Instance.new("UICorner")
 local Close = Instance.new("ImageButton")
 local Icon = Instance.new("ImageLabel")
 local Title_4 = Instance.new("TextLabel")
@@ -40,6 +42,52 @@ local SpeedPick = Instance.new("TextBox")
 local Jump = Instance.new("TextLabel")
 local JumpPick = Instance.new("TextBox")
 local Close_2 = Instance.new("ImageButton")
+local VisualsFrame = Instance.new("ScrollingFrame")
+local Close_3 = Instance.new("ImageButton")
+local Fullbright = Instance.new("Frame")
+local UICorner_10 = Instance.new("UICorner")
+local Title_6 = Instance.new("TextLabel")
+local On = Instance.new("TextButton")
+local UICorner_11 = Instance.new("UICorner")
+local Off = Instance.new("TextButton")
+local UICorner_12 = Instance.new("UICorner")
+local Accept = Instance.new("Frame")
+local UICorner_13 = Instance.new("UICorner")
+local Title_7 = Instance.new("TextLabel")
+local AcceptButton = Instance.new("TextButton")
+local UICorner_14 = Instance.new("UICorner")
+local OtherFrame = Instance.new("ScrollingFrame")
+local Close_4 = Instance.new("ImageButton")
+local InfiniteYield = Instance.new("Frame")
+local Title_8 = Instance.new("TextLabel")
+local Execute = Instance.new("TextButton")
+local UICorner_15 = Instance.new("UICorner")
+local UICorner_16 = Instance.new("UICorner")
+local Vynixius = Instance.new("Frame")
+local Title_9 = Instance.new("TextLabel")
+local Execute_2 = Instance.new("TextButton")
+local UICorner_17 = Instance.new("UICorner")
+local UICorner_18 = Instance.new("UICorner")
+local FunkyFriday_2 = Instance.new("Frame")
+local Title_10 = Instance.new("TextLabel")
+local Execute_3 = Instance.new("TextButton")
+local UICorner_19 = Instance.new("UICorner")
+local UICorner_20 = Instance.new("UICorner")
+local MusicFrame = Instance.new("ScrollingFrame")
+local Close_5 = Instance.new("ImageButton")
+local Raldi = Instance.new("Frame")
+local Cover = Instance.new("ImageLabel")
+local title = Instance.new("TextLabel")
+local Desc_2 = Instance.new("TextLabel")
+local Go = Instance.new("TextButton")
+local UICorner_21 = Instance.new("UICorner")
+local RaldiFrame = Instance.new("Frame")
+local Cover_2 = Instance.new("ImageLabel")
+local Title_11 = Instance.new("TextLabel")
+local Desc_3 = Instance.new("TextLabel")
+local Play = Instance.new("ImageButton")
+local Stop = Instance.new("ImageButton")
+local Close_6 = Instance.new("ImageButton")
 
 --Properties:
 
@@ -49,6 +97,7 @@ FluxusLikeExploit.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 
 Base.Name = "Base"
 Base.Parent = FluxusLikeExploit
+Base.Active = true
 Base.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 Base.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Base.BorderSizePixel = 0
@@ -69,7 +118,7 @@ Exploits.Size = UDim2.new(0, 89, 0, 202)
 
 Games.Name = "Games"
 Games.Parent = Exploits
-Games.BackgroundColor3 = Color3.fromRGB(255, 141, 75)
+Games.BackgroundColor3 = Color3.fromRGB(255, 148, 44)
 Games.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Games.BorderSizePixel = 0
 Games.Position = UDim2.new(0.101123594, 0, 0.0358376503, 0)
@@ -85,7 +134,7 @@ UICorner_2.Parent = Games
 
 Main.Name = "Main"
 Main.Parent = Exploits
-Main.BackgroundColor3 = Color3.fromRGB(255, 141, 75)
+Main.BackgroundColor3 = Color3.fromRGB(255, 148, 44)
 Main.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Main.BorderSizePixel = 0
 Main.Position = UDim2.new(0.101000004, 0, 0.100000001, 0)
@@ -101,7 +150,7 @@ UICorner_3.Parent = Main
 
 Visuals.Name = "Visuals"
 Visuals.Parent = Exploits
-Visuals.BackgroundColor3 = Color3.fromRGB(255, 141, 75)
+Visuals.BackgroundColor3 = Color3.fromRGB(255, 148, 44)
 Visuals.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Visuals.BorderSizePixel = 0
 Visuals.Position = UDim2.new(0.101000004, 0, 0.165000007, 0)
@@ -115,21 +164,37 @@ Visuals.TextWrapped = true
 
 UICorner_4.Parent = Visuals
 
-Visuals_2.Name = "Visuals"
-Visuals_2.Parent = Exploits
-Visuals_2.BackgroundColor3 = Color3.fromRGB(255, 141, 75)
-Visuals_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
-Visuals_2.BorderSizePixel = 0
-Visuals_2.Position = UDim2.new(0.101000004, 0, 0.230000004, 0)
-Visuals_2.Size = UDim2.new(0, 71, 0, 26)
-Visuals_2.Font = Enum.Font.FredokaOne
-Visuals_2.Text = "Other Scripts"
-Visuals_2.TextColor3 = Color3.fromRGB(255, 255, 255)
-Visuals_2.TextScaled = true
-Visuals_2.TextSize = 14.000
-Visuals_2.TextWrapped = true
+OtherScripts.Name = "OtherScripts"
+OtherScripts.Parent = Exploits
+OtherScripts.BackgroundColor3 = Color3.fromRGB(255, 148, 44)
+OtherScripts.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OtherScripts.BorderSizePixel = 0
+OtherScripts.Position = UDim2.new(0.101000004, 0, 0.230000004, 0)
+OtherScripts.Size = UDim2.new(0, 71, 0, 26)
+OtherScripts.Font = Enum.Font.FredokaOne
+OtherScripts.Text = "Other Scripts"
+OtherScripts.TextColor3 = Color3.fromRGB(255, 255, 255)
+OtherScripts.TextScaled = true
+OtherScripts.TextSize = 14.000
+OtherScripts.TextWrapped = true
 
-UICorner_5.Parent = Visuals_2
+UICorner_5.Parent = OtherScripts
+
+Music.Name = "Music"
+Music.Parent = Exploits
+Music.BackgroundColor3 = Color3.fromRGB(255, 148, 44)
+Music.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Music.BorderSizePixel = 0
+Music.Position = UDim2.new(0.101000004, 0, 0.294999987, 0)
+Music.Size = UDim2.new(0, 71, 0, 26)
+Music.Font = Enum.Font.FredokaOne
+Music.Text = "Music"
+Music.TextColor3 = Color3.fromRGB(255, 255, 255)
+Music.TextScaled = true
+Music.TextSize = 14.000
+Music.TextWrapped = true
+
+UICorner_6.Parent = Music
 
 GamesFrame.Name = "GamesFrame"
 GamesFrame.Parent = Base
@@ -179,7 +244,7 @@ ExecuterButton.TextScaled = true
 ExecuterButton.TextSize = 14.000
 ExecuterButton.TextWrapped = true
 
-UICorner_6.Parent = ExecuterButton
+UICorner_7.Parent = ExecuterButton
 
 Doors.Name = "Doors"
 Doors.Parent = GamesFrame
@@ -218,7 +283,7 @@ ExecuterButton_2.TextScaled = true
 ExecuterButton_2.TextSize = 14.000
 ExecuterButton_2.TextWrapped = true
 
-UICorner_7.Parent = ExecuterButton_2
+UICorner_8.Parent = ExecuterButton_2
 
 OBYOAB.Name = "OBYOAB"
 OBYOAB.Parent = GamesFrame
@@ -257,7 +322,7 @@ ExecuterButton_3.TextScaled = true
 ExecuterButton_3.TextSize = 14.000
 ExecuterButton_3.TextWrapped = true
 
-UICorner_8.Parent = ExecuterButton_3
+UICorner_9.Parent = ExecuterButton_3
 
 Close.Name = "Close"
 Close.Parent = GamesFrame
@@ -286,7 +351,7 @@ Title_4.BorderSizePixel = 0
 Title_4.Position = UDim2.new(0.172588825, 0, 0.023346303, 0)
 Title_4.Size = UDim2.new(0, 290, 0, 29)
 Title_4.Font = Enum.Font.SourceSans
-Title_4.Text = "WH1T3's Halloween Gui"
+Title_4.Text = "WH1T3's Halloween Gui V1"
 Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
 Title_4.TextScaled = true
 Title_4.TextSize = 14.000
@@ -411,59 +476,504 @@ Close_2.BorderSizePixel = 0
 Close_2.Size = UDim2.new(0, 20, 0, 18)
 Close_2.Image = "rbxassetid://9545003266"
 
+VisualsFrame.Name = "VisualsFrame"
+VisualsFrame.Parent = Base
+VisualsFrame.Active = true
+VisualsFrame.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+VisualsFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+VisualsFrame.BorderSizePixel = 0
+VisualsFrame.Position = UDim2.new(0.314720809, 0, 0.159533069, 0)
+VisualsFrame.Size = UDim2.new(0, 259, 0, 202)
+VisualsFrame.Visible = false
+
+Close_3.Name = "Close"
+Close_3.Parent = VisualsFrame
+Close_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_3.BackgroundTransparency = 1.000
+Close_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close_3.BorderSizePixel = 0
+Close_3.Size = UDim2.new(0, 20, 0, 18)
+Close_3.Image = "rbxassetid://9545003266"
+
+Fullbright.Name = "Fullbright"
+Fullbright.Parent = VisualsFrame
+Fullbright.BackgroundColor3 = Color3.fromRGB(31, 31, 31)
+Fullbright.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Fullbright.BorderSizePixel = 0
+Fullbright.Position = UDim2.new(0.0617760606, 0, 0.0275560133, 0)
+Fullbright.Size = UDim2.new(0, 227, 0, 29)
+
+UICorner_10.Parent = Fullbright
+
+Title_6.Name = "Title"
+Title_6.Parent = Fullbright
+Title_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_6.BackgroundTransparency = 1.000
+Title_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title_6.BorderSizePixel = 0
+Title_6.Position = UDim2.new(0.0176211447, 0, 0.068965517, 0)
+Title_6.Size = UDim2.new(0, 125, 0, 25)
+Title_6.Font = Enum.Font.FredokaOne
+Title_6.Text = "Fullbright"
+Title_6.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_6.TextScaled = true
+Title_6.TextSize = 14.000
+Title_6.TextWrapped = true
+
+On.Name = "On"
+On.Parent = Fullbright
+On.BackgroundColor3 = Color3.fromRGB(255, 148, 44)
+On.BorderColor3 = Color3.fromRGB(0, 0, 0)
+On.BorderSizePixel = 0
+On.Position = UDim2.new(0.594713807, 0, 0.137931034, 0)
+On.Size = UDim2.new(0, 33, 0, 19)
+On.Font = Enum.Font.FredokaOne
+On.Text = "On"
+On.TextColor3 = Color3.fromRGB(255, 255, 255)
+On.TextSize = 14.000
+
+UICorner_11.Parent = On
+
+Off.Name = "Off"
+Off.Parent = Fullbright
+Off.BackgroundColor3 = Color3.fromRGB(255, 148, 44)
+Off.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Off.BorderSizePixel = 0
+Off.Position = UDim2.new(0.75, 0, 0.137999997, 0)
+Off.Size = UDim2.new(0, 33, 0, 19)
+Off.Font = Enum.Font.FredokaOne
+Off.Text = "Off"
+Off.TextColor3 = Color3.fromRGB(255, 255, 255)
+Off.TextSize = 14.000
+
+UICorner_12.Parent = Off
+
+Accept.Name = "Accept"
+Accept.Parent = Base
+Accept.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+Accept.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Accept.BorderSizePixel = 0
+Accept.Size = UDim2.new(0, 394, 0, 257)
+
+UICorner_13.Parent = Accept
+
+Title_7.Name = "Title"
+Title_7.Parent = Accept
+Title_7.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_7.BackgroundTransparency = 1.000
+Title_7.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title_7.BorderSizePixel = 0
+Title_7.Position = UDim2.new(0.0558375642, 0, 0.0817120001, 0)
+Title_7.Size = UDim2.new(0, 345, 0, 138)
+Title_7.Font = Enum.Font.FredokaOne
+Title_7.Text = "The only Rule, Do not get caught by Roblox and get Put in Fucking Jail :)"
+Title_7.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_7.TextScaled = true
+Title_7.TextSize = 14.000
+Title_7.TextWrapped = true
+
+AcceptButton.Name = "AcceptButton"
+AcceptButton.Parent = Accept
+AcceptButton.BackgroundColor3 = Color3.fromRGB(36, 166, 255)
+AcceptButton.BorderColor3 = Color3.fromRGB(0, 0, 0)
+AcceptButton.BorderSizePixel = 0
+AcceptButton.Position = UDim2.new(0.291878104, 0, 0.657587528, 0)
+AcceptButton.Size = UDim2.new(0, 163, 0, 39)
+AcceptButton.Font = Enum.Font.FredokaOne
+AcceptButton.Text = "Accept"
+AcceptButton.TextColor3 = Color3.fromRGB(255, 255, 255)
+AcceptButton.TextScaled = true
+AcceptButton.TextSize = 14.000
+AcceptButton.TextWrapped = true
+
+UICorner_14.Parent = AcceptButton
+
+OtherFrame.Name = "OtherFrame"
+OtherFrame.Parent = Base
+OtherFrame.Active = true
+OtherFrame.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+OtherFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+OtherFrame.BorderSizePixel = 0
+OtherFrame.Position = UDim2.new(0.314720809, 0, 0.159533069, 0)
+OtherFrame.Size = UDim2.new(0, 259, 0, 202)
+OtherFrame.Visible = false
+
+Close_4.Name = "Close"
+Close_4.Parent = OtherFrame
+Close_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_4.BackgroundTransparency = 1.000
+Close_4.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close_4.BorderSizePixel = 0
+Close_4.Size = UDim2.new(0, 20, 0, 18)
+Close_4.Image = "rbxassetid://9545003266"
+
+InfiniteYield.Name = "InfiniteYield"
+InfiniteYield.Parent = OtherFrame
+InfiniteYield.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+InfiniteYield.BorderColor3 = Color3.fromRGB(0, 0, 0)
+InfiniteYield.BorderSizePixel = 0
+InfiniteYield.Position = UDim2.new(0.0700000003, 0, 0.0399999991, 0)
+InfiniteYield.Size = UDim2.new(0, 220, 0, 29)
+
+Title_8.Name = "Title"
+Title_8.Parent = InfiniteYield
+Title_8.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.BackgroundTransparency = 1.000
+Title_8.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title_8.BorderSizePixel = 0
+Title_8.Size = UDim2.new(0, 131, 0, 29)
+Title_8.Font = Enum.Font.FredokaOne
+Title_8.Text = "Infinite Yield"
+Title_8.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_8.TextScaled = true
+Title_8.TextSize = 14.000
+Title_8.TextWrapped = true
+
+Execute.Name = "Execute"
+Execute.Parent = InfiniteYield
+Execute.BackgroundColor3 = Color3.fromRGB(255, 148, 44)
+Execute.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Execute.BorderSizePixel = 0
+Execute.Position = UDim2.new(0.654545426, 0, 0.16947569, 0)
+Execute.Size = UDim2.new(0, 76, 0, 19)
+Execute.Font = Enum.Font.FredokaOne
+Execute.Text = "Execute"
+Execute.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute.TextSize = 14.000
+
+UICorner_15.Parent = Execute
+
+UICorner_16.Parent = InfiniteYield
+
+Vynixius.Name = "Vynixius"
+Vynixius.Parent = OtherFrame
+Vynixius.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+Vynixius.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Vynixius.BorderSizePixel = 0
+Vynixius.Position = UDim2.new(0.0700000003, 0, 0.104999997, 0)
+Vynixius.Size = UDim2.new(0, 220, 0, 29)
+
+Title_9.Name = "Title"
+Title_9.Parent = Vynixius
+Title_9.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_9.BackgroundTransparency = 1.000
+Title_9.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title_9.BorderSizePixel = 0
+Title_9.Size = UDim2.new(0, 131, 0, 29)
+Title_9.Font = Enum.Font.FredokaOne
+Title_9.Text = "Vynixius Doors"
+Title_9.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_9.TextScaled = true
+Title_9.TextSize = 14.000
+Title_9.TextWrapped = true
+
+Execute_2.Name = "Execute"
+Execute_2.Parent = Vynixius
+Execute_2.BackgroundColor3 = Color3.fromRGB(255, 148, 44)
+Execute_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Execute_2.BorderSizePixel = 0
+Execute_2.Position = UDim2.new(0.654545426, 0, 0.16947569, 0)
+Execute_2.Size = UDim2.new(0, 76, 0, 19)
+Execute_2.Font = Enum.Font.FredokaOne
+Execute_2.Text = "Execute"
+Execute_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute_2.TextSize = 14.000
+
+UICorner_17.Parent = Execute_2
+
+UICorner_18.Parent = Vynixius
+
+FunkyFriday_2.Name = "FunkyFriday"
+FunkyFriday_2.Parent = OtherFrame
+FunkyFriday_2.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+FunkyFriday_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+FunkyFriday_2.BorderSizePixel = 0
+FunkyFriday_2.Position = UDim2.new(0.0700000003, 0, 0.170000002, 0)
+FunkyFriday_2.Size = UDim2.new(0, 220, 0, 29)
+
+Title_10.Name = "Title"
+Title_10.Parent = FunkyFriday_2
+Title_10.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_10.BackgroundTransparency = 1.000
+Title_10.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title_10.BorderSizePixel = 0
+Title_10.Size = UDim2.new(0, 131, 0, 29)
+Title_10.Font = Enum.Font.FredokaOne
+Title_10.Text = "Funky Friday Autoplayer"
+Title_10.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_10.TextScaled = true
+Title_10.TextSize = 14.000
+Title_10.TextWrapped = true
+
+Execute_3.Name = "Execute"
+Execute_3.Parent = FunkyFriday_2
+Execute_3.BackgroundColor3 = Color3.fromRGB(255, 148, 44)
+Execute_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Execute_3.BorderSizePixel = 0
+Execute_3.Position = UDim2.new(0.654545426, 0, 0.16947569, 0)
+Execute_3.Size = UDim2.new(0, 76, 0, 19)
+Execute_3.Font = Enum.Font.FredokaOne
+Execute_3.Text = "Execute"
+Execute_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Execute_3.TextSize = 14.000
+
+UICorner_19.Parent = Execute_3
+
+UICorner_20.Parent = FunkyFriday_2
+
+MusicFrame.Name = "MusicFrame"
+MusicFrame.Parent = Base
+MusicFrame.Active = true
+MusicFrame.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+MusicFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+MusicFrame.BorderSizePixel = 0
+MusicFrame.Position = UDim2.new(0.314720809, 0, 0.159533069, 0)
+MusicFrame.Size = UDim2.new(0, 259, 0, 202)
+MusicFrame.Visible = false
+
+Close_5.Name = "Close"
+Close_5.Parent = MusicFrame
+Close_5.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_5.BackgroundTransparency = 1.000
+Close_5.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close_5.BorderSizePixel = 0
+Close_5.Size = UDim2.new(0, 20, 0, 18)
+Close_5.Image = "rbxassetid://9545003266"
+
+Raldi.Name = "Raldi"
+Raldi.Parent = MusicFrame
+Raldi.BackgroundColor3 = Color3.fromRGB(32, 32, 32)
+Raldi.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Raldi.BorderSizePixel = 0
+Raldi.Position = UDim2.new(0.0772200748, 0, 0.0295440368, 0)
+Raldi.Size = UDim2.new(0, 218, 0, 62)
+
+Cover.Name = "Cover"
+Cover.Parent = Raldi
+Cover.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cover.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cover.BorderSizePixel = 0
+Cover.Position = UDim2.new(0.0412844047, 0, 0.0683052316, 0)
+Cover.Size = UDim2.new(0, 58, 0, 52)
+Cover.Image = "rbxassetid://14054687777"
+
+title.Name = "title"
+title.Parent = Raldi
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.BorderColor3 = Color3.fromRGB(0, 0, 0)
+title.BorderSizePixel = 0
+title.Position = UDim2.new(0.348623842, 0, 0.0483870953, 0)
+title.Size = UDim2.new(0, 102, 0, 20)
+title.Font = Enum.Font.FredokaOne
+title.Text = "Crackhouse Trouble"
+title.TextColor3 = Color3.fromRGB(255, 255, 255)
+title.TextScaled = true
+title.TextSize = 14.000
+title.TextWrapped = true
+
+Desc_2.Name = "Desc"
+Desc_2.Parent = Raldi
+Desc_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Desc_2.BackgroundTransparency = 1.000
+Desc_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Desc_2.BorderSizePixel = 0
+Desc_2.Position = UDim2.new(0.348623842, 0, 0.370967746, 0)
+Desc_2.Size = UDim2.new(0, 102, 0, 33)
+Desc_2.Font = Enum.Font.Ubuntu
+Desc_2.Text = "Neil is Crazy! He is Smarter than Raldi."
+Desc_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+Desc_2.TextSize = 14.000
+Desc_2.TextWrapped = true
+
+Go.Name = "Go"
+Go.Parent = Raldi
+Go.BackgroundColor3 = Color3.fromRGB(31, 230, 29)
+Go.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Go.BorderSizePixel = 0
+Go.Position = UDim2.new(0.848623872, 0, 0.322580636, 0)
+Go.Size = UDim2.new(0, 29, 0, 22)
+Go.Font = Enum.Font.FredokaOne
+Go.Text = "Go!"
+Go.TextColor3 = Color3.fromRGB(255, 255, 255)
+Go.TextScaled = true
+Go.TextSize = 14.000
+Go.TextWrapped = true
+
+UICorner_21.CornerRadius = UDim.new(0, 5)
+UICorner_21.Parent = Go
+
+RaldiFrame.Name = "RaldiFrame"
+RaldiFrame.Parent = Base
+RaldiFrame.BackgroundColor3 = Color3.fromRGB(42, 42, 42)
+RaldiFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
+RaldiFrame.BorderSizePixel = 0
+RaldiFrame.Position = UDim2.new(0.322335035, 0, 0.159533069, 0)
+RaldiFrame.Size = UDim2.new(0, 259, 0, 202)
+RaldiFrame.Visible = false
+
+Cover_2.Name = "Cover"
+Cover_2.Parent = RaldiFrame
+Cover_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Cover_2.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Cover_2.BorderSizePixel = 0
+Cover_2.Position = UDim2.new(0.0424710438, 0, 0.0495049506, 0)
+Cover_2.Size = UDim2.new(0, 100, 0, 100)
+Cover_2.Image = "rbxassetid://14054687777"
+
+Title_11.Name = "Title"
+Title_11.Parent = RaldiFrame
+Title_11.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Title_11.BackgroundTransparency = 1.000
+Title_11.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Title_11.BorderSizePixel = 0
+Title_11.Position = UDim2.new(0.478764474, 0, 0.0495050251, 0)
+Title_11.Size = UDim2.new(0, 126, 0, 28)
+Title_11.Font = Enum.Font.FredokaOne
+Title_11.Text = "Crackhouse Trouble"
+Title_11.TextColor3 = Color3.fromRGB(255, 255, 255)
+Title_11.TextSize = 14.000
+Title_11.TextWrapped = true
+
+Desc_3.Name = "Desc"
+Desc_3.Parent = RaldiFrame
+Desc_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Desc_3.BackgroundTransparency = 1.000
+Desc_3.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Desc_3.BorderSizePixel = 0
+Desc_3.Position = UDim2.new(0.0424710438, 0, 0.584158421, 0)
+Desc_3.Size = UDim2.new(0, 239, 0, 75)
+Desc_3.Font = Enum.Font.SourceSans
+Desc_3.Text = "The SoundTrack of Raldi's Crackhouse when you Stunble upon Neil, He is so Smart, Smarter than Raldi and he is Crazy."
+Desc_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+Desc_3.TextSize = 14.000
+Desc_3.TextWrapped = true
+
+Play.Name = "Play"
+Play.Parent = RaldiFrame
+Play.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Play.BackgroundTransparency = 1.000
+Play.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Play.BorderSizePixel = 0
+Play.Position = UDim2.new(0.478764474, 0, 0.217821777, 0)
+Play.Size = UDim2.new(0, 42, 0, 39)
+Play.Image = "rbxassetid://15069926382"
+
+Stop.Name = "Stop"
+Stop.Parent = RaldiFrame
+Stop.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Stop.BackgroundTransparency = 1.000
+Stop.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Stop.BorderSizePixel = 0
+Stop.Position = UDim2.new(0.478764474, 0, 0.217821777, 0)
+Stop.Size = UDim2.new(0, 42, 0, 39)
+Stop.Visible = false
+Stop.Image = "rbxassetid://579151508"
+
+Close_6.Name = "Close"
+Close_6.Parent = RaldiFrame
+Close_6.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Close_6.BackgroundTransparency = 1.000
+Close_6.BorderColor3 = Color3.fromRGB(0, 0, 0)
+Close_6.BorderSizePixel = 0
+Close_6.Size = UDim2.new(0, 20, 0, 18)
+Close_6.Image = "rbxassetid://9545003266"
+
 -- Scripts:
 
-local function UQNLPPO_fake_script() -- Games.LocalScript 
+local function OAEIGR_fake_script() -- Games.LocalScript 
 	local script = Instance.new('LocalScript', Games)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.GamesFrame.Visible = true
 		script.Parent.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.Parent.OtherFrame.Visible = false
+		script.Parent.Parent.Parent.VisualsFrame.Visible = false
+		script.Parent.Parent.Parent.MusicFrame.Visible = false
 	end)
 end
-coroutine.wrap(UQNLPPO_fake_script)()
-local function GTOE_fake_script() -- Main.LocalScript 
+coroutine.wrap(OAEIGR_fake_script)()
+local function CKBN_fake_script() -- Main.LocalScript 
 	local script = Instance.new('LocalScript', Main)
 
 	script.Parent.MouseButton1Click:Connect(function()
-		script.Parent.Parent.Parent.MainFrame.Visible = true
 		script.Parent.Parent.Parent.GamesFrame.Visible = false
+		script.Parent.Parent.Parent.MainFrame.Visible = true
+		script.Parent.Parent.Parent.OtherFrame.Visible = false
+		script.Parent.Parent.Parent.VisualsFrame.Visible = false
+		script.Parent.Parent.Parent.MusicFrame.Visible = false
 	end)
 end
-coroutine.wrap(GTOE_fake_script)()
-local function ASRRX_fake_script() -- ExecuterButton.LocalScript 
+coroutine.wrap(CKBN_fake_script)()
+local function CZNY_fake_script() -- Visuals.LocalScript 
+	local script = Instance.new('LocalScript', Visuals)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.GamesFrame.Visible = false
+		script.Parent.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.Parent.OtherFrame.Visible = false
+		script.Parent.Parent.Parent.VisualsFrame.Visible = true
+		script.Parent.Parent.Parent.MusicFrame.Visible = false
+	end)
+end
+coroutine.wrap(CZNY_fake_script)()
+local function RYJGRIT_fake_script() -- OtherScripts.LocalScript 
+	local script = Instance.new('LocalScript', OtherScripts)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.GamesFrame.Visible = false
+		script.Parent.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.Parent.OtherFrame.Visible = true
+		script.Parent.Parent.Parent.VisualsFrame.Visible = false
+		script.Parent.Parent.Parent.MusicFrame.Visible = false
+	end)
+end
+coroutine.wrap(RYJGRIT_fake_script)()
+local function CDVQX_fake_script() -- Music.LocalScript 
+	local script = Instance.new('LocalScript', Music)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.GamesFrame.Visible = false
+		script.Parent.Parent.Parent.MainFrame.Visible = false
+		script.Parent.Parent.Parent.OtherFrame.Visible = false
+		script.Parent.Parent.Parent.VisualsFrame.Visible = false
+		script.Parent.Parent.Parent.MusicFrame.Visible = true
+	end)
+end
+coroutine.wrap(CDVQX_fake_script)()
+local function LVKES_fake_script() -- ExecuterButton.LocalScript 
 	local script = Instance.new('LocalScript', ExecuterButton)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
 	end)
 end
-coroutine.wrap(ASRRX_fake_script)()
-local function XSZHP_fake_script() -- ExecuterButton_2.LocalScript 
+coroutine.wrap(LVKES_fake_script)()
+local function RIUEMC_fake_script() -- ExecuterButton_2.LocalScript 
 	local script = Instance.new('LocalScript', ExecuterButton_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
 	end)
 end
-coroutine.wrap(XSZHP_fake_script)()
-local function LWGOJFD_fake_script() -- ExecuterButton_3.LocalScript 
+coroutine.wrap(RIUEMC_fake_script)()
+local function UDIOV_fake_script() -- ExecuterButton_3.LocalScript 
 	local script = Instance.new('LocalScript', ExecuterButton_3)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		loadstring(game:HttpGet("https://github.com/KhSaeed90/Roblox/raw/workspace/14184086618"))()
 	end)
 end
-coroutine.wrap(LWGOJFD_fake_script)()
-local function RTBLPK_fake_script() -- Close.LocalScript 
+coroutine.wrap(UDIOV_fake_script)()
+local function TLCJCKX_fake_script() -- Close.LocalScript 
 	local script = Instance.new('LocalScript', Close)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.GamesFrame.Visible = false
 	end)
 end
-coroutine.wrap(RTBLPK_fake_script)()
-local function TDRN_fake_script() -- SpeedPick.LocalScript 
+coroutine.wrap(TLCJCKX_fake_script)()
+local function PGJTHW_fake_script() -- SpeedPick.LocalScript 
 	local script = Instance.new('LocalScript', SpeedPick)
 
 	local humanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
@@ -473,8 +983,8 @@ local function TDRN_fake_script() -- SpeedPick.LocalScript
 		humanoid.WalkSpeed = box.Text
 	end)
 end
-coroutine.wrap(TDRN_fake_script)()
-local function ZITUUPD_fake_script() -- JumpPick.LocalScript 
+coroutine.wrap(PGJTHW_fake_script)()
+local function ZJECAL_fake_script() -- JumpPick.LocalScript 
 	local script = Instance.new('LocalScript', JumpPick)
 
 	local humanoid = game.Players.LocalPlayer.Character:WaitForChild("Humanoid")
@@ -484,12 +994,159 @@ local function ZITUUPD_fake_script() -- JumpPick.LocalScript
 		humanoid.JumpPower = box.Text
 	end)
 end
-coroutine.wrap(ZITUUPD_fake_script)()
-local function OIXJZJJ_fake_script() -- Close_2.LocalScript 
+coroutine.wrap(ZJECAL_fake_script)()
+local function FASNSM_fake_script() -- Close_2.LocalScript 
 	local script = Instance.new('LocalScript', Close_2)
 
 	script.Parent.MouseButton1Click:Connect(function()
 		script.Parent.Parent.Parent.MainFrame.Visible = false
 	end)
 end
-coroutine.wrap(OIXJZJJ_fake_script)()
+coroutine.wrap(FASNSM_fake_script)()
+local function HZOO_fake_script() -- Close_3.LocalScript 
+	local script = Instance.new('LocalScript', Close_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.VisualsFrame.Visible = false
+	end)
+end
+coroutine.wrap(HZOO_fake_script)()
+local function DBFZT_fake_script() -- On.LocalScript 
+	local script = Instance.new('LocalScript', On)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		local Light = game:GetService("Lighting")
+	
+		function dofullbright()
+			Light.Ambient = Color3.new(1, 1, 1)
+			Light.ColorShift_Bottom = Color3.new(1, 1, 1)
+			Light.ColorShift_Top = Color3.new(1, 1, 1)
+		end
+	
+		dofullbright()
+	
+		Light.LightingChanged:Connect(dofullbright)
+	end)
+end
+coroutine.wrap(DBFZT_fake_script)()
+local function AMWNNMN_fake_script() -- Off.LocalScript 
+	local script = Instance.new('LocalScript', Off)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.On.LocalScript.Disabled = true
+	end)
+end
+coroutine.wrap(AMWNNMN_fake_script)()
+local function SPSS_fake_script() -- AcceptButton.LocalScript 
+	local script = Instance.new('LocalScript', AcceptButton)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Accept.Visible = false
+	end)
+end
+coroutine.wrap(SPSS_fake_script)()
+local function LXWDMHO_fake_script() -- Close_4.LocalScript 
+	local script = Instance.new('LocalScript', Close_4)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.OtherFrame.Visible = false
+	end)
+end
+coroutine.wrap(LXWDMHO_fake_script)()
+local function KQURX_fake_script() -- Execute.LocalScript 
+	local script = Instance.new('LocalScript', Execute)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() 	
+	end)
+end
+coroutine.wrap(KQURX_fake_script)()
+local function WHOB_fake_script() -- Execute_2.LocalScript 
+	local script = Instance.new('LocalScript', Execute_2)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Doors/Script.lua"))()
+	end)
+end
+coroutine.wrap(WHOB_fake_script)()
+local function HUMSJA_fake_script() -- Execute_3.LocalScript 
+	local script = Instance.new('LocalScript', Execute_3)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/wally-rblx/funky-friday-autoplay/main/main.lua",true))()
+	end)
+end
+coroutine.wrap(HUMSJA_fake_script)()
+local function JCKALH_fake_script() -- Close_5.LocalScript 
+	local script = Instance.new('LocalScript', Close_5)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.MusicFrame.Visible = false
+	end)
+end
+coroutine.wrap(JCKALH_fake_script)()
+local function HAKYYMQ_fake_script() -- Go.LocalScript 
+	local script = Instance.new('LocalScript', Go)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.Parent.RaldiFrame.Visible = true
+	end)
+end
+coroutine.wrap(HAKYYMQ_fake_script)()
+local function XGRTKEG_fake_script() -- RaldiFrame.LocalScript 
+	local script = Instance.new('LocalScript', RaldiFrame)
+
+	local Spawn = Instance.new("Sound")
+	
+	Spawn.Playing = false
+	Spawn.SoundId = "rbxassetid://15011592921"
+	Spawn.Parent = game.Workspace
+	Spawn.Volume = 1
+	Spawn.Looped = false
+	Spawn.PlaybackSpeed = 1
+	Spawn.TimePosition = 0
+	
+	script.Parent.Play.MouseButton1Click:Connect(function()
+		Spawn:Play()
+		script.Parent.Play.Visible = false
+		script.Parent.Stop.Visible = true
+	end)
+	script.Parent.Stop.MouseButton1Click:Connect(function()
+		Spawn:Stop()
+		script.Parent.Play.Visible = true
+		script.Parent.Stop.Visible = false
+	end)
+end
+coroutine.wrap(XGRTKEG_fake_script)()
+local function HJCLPOO_fake_script() -- Close_6.LocalScript 
+	local script = Instance.new('LocalScript', Close_6)
+
+	script.Parent.MouseButton1Click:Connect(function()
+		script.Parent.Parent.Parent.RaldiFrame.Visible = false
+	end)
+end
+coroutine.wrap(HJCLPOO_fake_script)()
+local function DDZGCZ_fake_script() -- Base.LocalScript 
+	local script = Instance.new('LocalScript', Base)
+
+	script.Parent.Draggable = true
+end
+coroutine.wrap(DDZGCZ_fake_script)()
+local function LDEO_fake_script() -- FluxusLikeExploit.LocalScript 
+	local script = Instance.new('LocalScript', FluxusLikeExploit)
+
+	local Spawn = Instance.new("Sound")
+	
+	Spawn.Playing = true
+	Spawn.SoundId = "rbxassetid://15068035943"
+	Spawn.Parent = game.Workspace
+	Spawn.Volume = 1
+	Spawn.Looped = false
+	Spawn.PlaybackSpeed = 1
+	Spawn.TimePosition = 0
+	
+	if script.Parent.Base.Visible == true then
+		Spawn:Play()
+	end
+end
+coroutine.wrap(LDEO_fake_script)()
